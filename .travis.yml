@@ -1,0 +1,8 @@
+language: 'perl'
+perl: '5.10'
+
+before_install:
+  - cpanm Carton
+  - carton install
+
+install: MyApp-Web/script/myapp_web_server.pl
