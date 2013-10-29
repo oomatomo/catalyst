@@ -5,4 +5,4 @@ before_install:
   - cpanm Carton
   - carton install
 
-install: MyApp-Web/script/myapp_web_server.pl
+script: carton exec MyAp-Web/script/myapp_web_server.pl
