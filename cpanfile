@@ -10,5 +10,4 @@ requires 'Catalyst::Plugin::Session::Store::Memcached::Fast';
 requires 'Catalyst::Plugin::Authorization::Roles';
 requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Plugin::ConfigLoader';
-
 requires 'DBIx::Class::Schema::Loader';
