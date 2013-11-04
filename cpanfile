@@ -12,3 +12,6 @@ requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Plugin::ConfigLoader';
 
 requires 'DBIx::Class::Schema::Loader';
+
+requires 'Test::More';
+requires 'Perl::Metrics::Lite';
